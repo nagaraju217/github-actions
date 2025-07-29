@@ -5,7 +5,7 @@ jobs:
     stage1:
       runs-on: ubuntu-latest
       steps:
-        - run: echo "stage1 step"
+        - run: echo "stage1 step...."
        
 
     stage2:
