@@ -15,7 +15,7 @@ jobs:
         - run: echo "stage2 step..."
 
     stage3:
-      needs: stage1
+      needs: stage2
       runs-on: ubuntu-latest
       steps:
         - run: echo "stage3 step"
